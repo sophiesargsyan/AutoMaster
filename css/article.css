@@ -3,14 +3,14 @@
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
     font-weight: bold;
 }
 
@@ -135,6 +135,11 @@ header {
     line-height: normal;
 }
 
+.navbar-nav-buttons .order-call-btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
 @media screen and (min-width: 1280px) {
     .navbar-toggler {
         display: none;
@@ -154,7 +159,7 @@ header {
     .navbar-collapse .navbar-nav .nav-item {
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -169,7 +174,7 @@ header {
         margin-left: auto;
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -194,8 +199,8 @@ header {
 }
 
 .page-4-heading h1{
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color: #161616;
+    font-family: "Inter";
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -208,8 +213,8 @@ header {
 }
 
 .page-road >small>a {
-    color: var(--unnamed, #A1A1A1);
-    font-family: SONGER SemiExpanded;
+    color: #A1A1A1;
+    font-family: "SONGER SemiExpanded";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -227,8 +232,8 @@ header {
 }
 
 .time-small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: Inter;
+    color: #A1A1A1;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -236,8 +241,8 @@ header {
 }
 
 .large-paragraph-page4 {
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color: #161616;
+    font-family: "Inter";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -245,8 +250,8 @@ header {
 }
 
 .paragraph-page4 {
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color: #161616;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -255,8 +260,8 @@ header {
 }
 
 .content-rows-page4 h2 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -272,8 +277,8 @@ header {
 }
 
 .numbers-in-rows {
-    color: var(--unnamed, #FF1D19);
-    font-family: Inter;
+    color:  #FF1D19;
+    font-family: "Inter";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -291,8 +296,8 @@ header {
 }
 
 .social-media h3 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -349,14 +354,14 @@ header {
 
 .contact-heading-div h3 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
 }
 
 .hover-div:hover {
-    background: var(--hover, #323232);
+    background: #323232;
 }
 
 .hover-div {
@@ -366,7 +371,7 @@ header {
 
 .address-part h5 {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -375,7 +380,7 @@ header {
 
 .address-part a {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -388,7 +393,7 @@ header {
 
 .work-time small {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -402,7 +407,7 @@ header {
 .register p {
     color: #FFF;
     text-align: center;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -421,7 +426,7 @@ header {
 
 .footer-p {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -431,7 +436,7 @@ header {
 
 .footer-info-codes{
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -441,7 +446,7 @@ header {
 
 .right-reservation {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -451,7 +456,7 @@ header {
 
 .master-contact {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

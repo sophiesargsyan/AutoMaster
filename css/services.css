@@ -3,14 +3,14 @@
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
     font-weight: bold;
 }
 
@@ -136,6 +136,11 @@ header {
     line-height: normal;
 }
 
+.navbar-nav-buttons .order-call-btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
 @media screen and (min-width: 1280px) {
     .navbar-toggler {
         display: none;
@@ -155,7 +160,7 @@ header {
     .navbar-collapse .navbar-nav .nav-item {
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -170,7 +175,7 @@ header {
         margin-left: auto;
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -198,8 +203,8 @@ header {
 }
 
 .page-road>small {
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color: #161616;
+    font-family: "Inter";
     font-size: 9px;
     font-style: normal;
     font-weight: 500;
@@ -215,15 +220,15 @@ header {
 }
 
 .heading-p3>h1 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
 }
 
 .register-btn {
-    color: var(--unnamed, #161616);
+    color: #161616;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -235,7 +240,7 @@ header {
     text-align: center;
     padding: 16px 115px;
     font-family: "SONGER SemiExpanded";
-    border: 1px solid var(--unnamed, #161616);
+    border: 1px solid  #161616;
 }
 
 .heading-img-p3 img {
@@ -244,24 +249,24 @@ header {
 }
 
 .coast-heading>h3 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
 }
 
 .first-group-small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: SONGER SemiExpanded;
+    color: #A1A1A1;
+    font-family: "SONGER SemiExpanded";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
 }
 
 .first-group-small small:nth-child(2) {
-    color: var(--unnamed, #A1A1A1);
-    font-family: SONGER SemiExpanded;
+    color: #A1A1A1;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -270,8 +275,8 @@ header {
 }
 
 .first-group-small small:nth-child(3) {
-    color: var(--unnamed, #A1A1A1);
-    font-family: SONGER SemiExpanded;
+    color: #A1A1A1;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -279,16 +284,16 @@ header {
 }
 
 .second-group-small {
-    color: var(--unnamed, #FF1D19);
-    font-family: SONGER SemiExpanded;
+    color: #FF1D19;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
 }
 
 .second-group-small small:nth-child(2) {
-    color: var(--unnamed, #FF1D19);
-    font-family: SONGER SemiExpanded;
+    color: #FF1D19;
+    font-family: "SONGER SemiExpanded";
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -296,9 +301,9 @@ header {
 }
 
 .paragraph-in-midcont>p {
-    color: var(--unnamed, #161616);
+    color: #161616;
     text-align: justify;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -306,8 +311,8 @@ header {
 }
 
 .time-guaranty>p {
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color: #161616;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -347,8 +352,8 @@ header {
     }
     
     .time-guaranty>p {
-        color: var(--unnamed, #161616);
-        font-family: Inter;
+        color: #161616;
+        font-family: "Inter";
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -360,7 +365,7 @@ header {
 /* Second Section Start */
 .second-section-heading h2 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -394,7 +399,7 @@ header {
 
 .row-number {
     color: rgba(255, 255, 255, 0.10);
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
@@ -404,7 +409,7 @@ header {
 
 .row-paragraph {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -484,7 +489,7 @@ header {
 
 .blog_section_heading h2 {
     color: #161616;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -492,7 +497,7 @@ header {
 
 .blog-catalog {
     color: #161616;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -505,7 +510,7 @@ header {
 
 .block-heading {
     color: #161616;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -518,15 +523,15 @@ header {
 
 .block-quote {
     color: #000;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
 }
 
 .blog-block small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: SONGER SemiExpanded;
+    color: #A1A1A1;
+    font-family: "SONGER SemiExpanded";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -560,14 +565,14 @@ header {
 
 .contact-heading-div h3 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
 }
 
 .hover-div:hover {
-    background: var(--hover, #323232);
+    background: #323232;
 }
 
 .hover-div {
@@ -577,7 +582,7 @@ header {
 
 .address-part h5 {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -586,7 +591,7 @@ header {
 
 .address-part a {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -599,7 +604,7 @@ header {
 
 .work-time small {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -613,7 +618,7 @@ header {
 .register p {
     color: #FFF;
     text-align: center;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -632,7 +637,7 @@ header {
 
 .footer-p {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -642,7 +647,7 @@ header {
 
 .footer-info-codes{
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -652,7 +657,7 @@ header {
 
 .right-reservation {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -662,7 +667,7 @@ header {
 
 .master-contact {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

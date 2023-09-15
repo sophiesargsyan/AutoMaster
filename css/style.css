@@ -3,14 +3,14 @@
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
     font-weight: bold;
 }
 
@@ -30,8 +30,6 @@ a, a:hover, a:active {
     height: 0px;
     border: 0.5px solid #323232;
 }
-
-
 
 /* Header Start */
 header {
@@ -135,6 +133,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.navbar-nav-buttons .order-call-btn:hover {
+    background-color: #FFF;
+    color: #000;
 }
 
 @media screen and (min-width: 1280px) {
@@ -286,7 +289,7 @@ header {
 /* Service Start */
 .menu_section_heading h2 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -294,7 +297,7 @@ header {
 
 .catalog>p   {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -329,6 +332,10 @@ header {
     position: absolute;
     bottom: 0;
     padding-right: 30px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
 }
 
 .service-item {
@@ -349,7 +356,7 @@ header {
 
 .service-item-heading h2 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -363,7 +370,7 @@ header {
  
 .menu_section_links>li {
     color: #A1A1A1;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -377,7 +384,7 @@ header {
 .service-item-menu-btn>p {
     color: #FFF;
     text-align: right;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -461,7 +468,13 @@ header {
     }
     
     .service-item-menu-btn {
-        position: relative;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 0;
+        display: block;
+        align-items: normal;
+        justify-content: normal;
     }
     
     .service-item-menu-btn>svg {
@@ -489,8 +502,8 @@ header {
 }
 
 .about-company-heading h2 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -515,8 +528,8 @@ header {
 }
 
 .about-company p {
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color:#161616;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -524,8 +537,8 @@ header {
 }
 
 .all-about-company>p {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -547,6 +560,7 @@ header {
 
 .about-company-img2 {
     padding-bottom: 30px;
+
 }
 
 .abcomp-p3 {
@@ -561,7 +575,7 @@ header {
     padding-bottom: 72px;
 }
 
-.all-about-company:hover  p, svg {
+.all-about-company:hover p, svg {
     color: #FF1D19;
 }
 
@@ -569,6 +583,10 @@ header {
     .abcomp-heading-div {
         padding-top: 120px;
         padding-bottom: 60px;
+    }
+
+    .abcomp-heading-div .line {
+        background: #FF1D19;
     }
 
     .about-company-heading h2 {
@@ -584,6 +602,10 @@ header {
         height: 22.258px;
     }
 
+    .all-about-company>p {
+        width: 295px;
+    }
+
     .all-about-company {
         justify-content: flex-start;
     }
@@ -594,10 +616,13 @@ header {
         padding-bottom: 60px;
     }
 
-    .about-company-img2 img {
-        width: 700px;
-        height: auto;
+    .about-company-img2 {
+        width: auto;
         padding-bottom: 59px;
+    }
+
+    .about-company-img2 img{
+        height: auto;
     }
 
     .about-company-img3 img{
@@ -648,8 +673,8 @@ header {
 }
 
 .master-section-heading>h2 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -660,8 +685,8 @@ header {
 }
 
 .master p{
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -669,8 +694,8 @@ header {
 }
 
 .master small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: Inter;
+    color: #A1A1A1;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -709,7 +734,7 @@ header {
 /* Autoservice Section Start */
 .autoservice-heading>h2 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -721,21 +746,21 @@ header {
 
 .autoservice-row .number {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
 }
 .autoservice-row .symbol {
-    color: var(--dark-gray, #323232);
-    font-family: Inter;
+    color: #323232;
+    font-family: "Inter";
     font-size: 51.2px;
     font-weight: 400;
 }
 
 .autoservice-row p:nth-child(2) {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -743,7 +768,7 @@ header {
 
 .lonely-p {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -787,7 +812,7 @@ header {
     }
 
     .autoservice-heading-div .line {
-        background: var(--unnamed, #A1A1A1);
+        background: #A1A1A1;
     }
 }
 /* Autoservice Section End */
@@ -804,7 +829,7 @@ header {
 
 .blog_section_heading h2 {
     color: #161616;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -812,7 +837,7 @@ header {
 
 .blog-catalog {
     color: #161616;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -825,7 +850,7 @@ header {
 
 .block-heading {
     color: #161616;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -838,15 +863,15 @@ header {
 
 .block-quote {
     color: #000;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
 }
 
 .blog-block small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: SONGER SemiExpanded;
+    color:  #A1A1A1;
+    font-family: "SONGER SemiExpanded";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -880,14 +905,14 @@ header {
 
 .contact-heading-div h3 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
 }
 
 .hover-div:hover {
-    background: var(--hover, #323232);
+    background: #323232;
 }
 
 .hover-div {
@@ -897,7 +922,7 @@ header {
 
 .address-part h5 {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -906,7 +931,7 @@ header {
 
 .address-part a {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -919,7 +944,7 @@ header {
 
 .work-time small {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -933,7 +958,7 @@ header {
 .register p {
     color: #FFF;
     text-align: center;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -952,7 +977,7 @@ header {
 
 .footer-p {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -962,7 +987,7 @@ header {
 
 .footer-info-codes{
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -972,7 +997,7 @@ header {
 
 .right-reservation {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -982,7 +1007,7 @@ header {
 
 .master-contact {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

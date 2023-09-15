@@ -3,17 +3,16 @@
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Regular.otf");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "SONGER SemiExpanded";
-    src: url("/Users/sophiesargsyan/Desktop/AutoMaster/fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
+    src: url("../fonts/songersemiexpanded/SONGER™_SE_Bold.otf");
     font-weight: bold;
 }
-
 html {
     color: #ffffff;
 }
@@ -135,6 +134,11 @@ header {
     line-height: normal;
 }
 
+.navbar-nav-buttons .order-call-btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
 @media screen and (min-width: 1280px) {
     .navbar-toggler {
         display: none;
@@ -154,7 +158,7 @@ header {
     .navbar-collapse .navbar-nav .nav-item {
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -169,7 +173,7 @@ header {
         margin-left: auto;
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -200,8 +204,8 @@ header {
 }
 
 .page-road>small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: Inter;
+    color: #A1A1A1;
+    font-family: "Inter";
     font-size: 9px;
     font-style: normal;
     font-weight: 500;
@@ -210,8 +214,8 @@ header {
 
 
 h1 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -228,8 +232,8 @@ h1 {
 }
 
 .paragraphs-in-abcomp-page>p {
-    color: var(--unnamed, #161616);
-    font-family: Inter;
+    color: #161616;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -237,8 +241,8 @@ h1 {
 }
 
 .paragraphs-in-abcomp-page>h2 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -261,8 +265,8 @@ h1 {
     }
 
     .paragraphs-in-abcomp-page>h2 {
-        color: var(--unnamed, #161616);
-        font-family: SONGER SemiExpanded;
+        color: #161616;
+        font-family: "SONGER SemiExpanded";
         font-size: 30px;
         font-style: normal;
         font-weight: 500;
@@ -274,8 +278,6 @@ h1 {
         padding-bottom: 100px;
     }
 }
-
-
 /* About Company End */
 
 /* Master Section Start */
@@ -289,8 +291,8 @@ h1 {
 }
 
 .master-section-heading>h2 {
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -301,8 +303,8 @@ h1 {
 }
 
 .master p{
-    color: var(--unnamed, #161616);
-    font-family: SONGER SemiExpanded;
+    color: #161616;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -310,8 +312,8 @@ h1 {
 }
 
 .master small {
-    color: var(--unnamed, #A1A1A1);
-    font-family: Inter;
+    color: #A1A1A1;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -351,7 +353,7 @@ h1 {
 /* Autoservice Section Start */
 .autoservice-heading>h2 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -363,21 +365,21 @@ h1 {
 
 .autoservice-row .number {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
 }
 .autoservice-row .symbol {
-    color: var(--dark-gray, #323232);
-    font-family: Inter;
+    color:#323232;
+    font-family: "Inter";
     font-size: 51.2px;
     font-weight: 400;
 }
 
 .autoservice-row p:nth-child(2) {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -385,7 +387,7 @@ h1 {
 
 .lonely-p {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -429,7 +431,7 @@ h1 {
     }
 
     .autoservice-heading-div .line {
-        background: var(--unnamed, #A1A1A1);
+        background: #A1A1A1;
     }
 }
 /* Autoservice Section End */
@@ -442,14 +444,14 @@ h1 {
 
 .contact-heading-div h3 {
     color: #FFF;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
 }
 
 .hover-div:hover {
-    background: var(--hover, #323232);
+    background: #323232;
 }
 
 .hover-div {
@@ -459,7 +461,7 @@ h1 {
 
 .address-part h5 {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -468,7 +470,7 @@ h1 {
 
 .address-part a {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -481,7 +483,7 @@ h1 {
 
 .work-time small {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -495,7 +497,7 @@ h1 {
 .register p {
     color: #FFF;
     text-align: center;
-    font-family: SONGER SemiExpanded;
+    font-family: "SONGER SemiExpanded";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -514,7 +516,7 @@ h1 {
 
 .footer-p {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
@@ -524,7 +526,7 @@ h1 {
 
 .footer-info-codes{
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -534,7 +536,7 @@ h1 {
 
 .right-reservation {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -544,7 +546,7 @@ h1 {
 
 .master-contact {
     color: #FFF;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
