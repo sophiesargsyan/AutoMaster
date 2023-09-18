@@ -135,11 +135,6 @@ header {
     line-height: normal;
 }
 
-.navbar-nav-buttons .order-call-btn:hover {
-    background-color: #FFF;
-    color: #000;
-}
-
 @media screen and (min-width: 1280px) {
     .navbar-toggler {
         display: none;
@@ -159,7 +154,7 @@ header {
     .navbar-collapse .navbar-nav .nav-item {
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -174,7 +169,7 @@ header {
         margin-left: auto;
         color: #FFF;
         text-align: center;
-        font-family: Inter;
+        font-family: "Inter";
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -193,9 +188,10 @@ header {
     }
 
     .navbar-nav-buttons .order-call-btn:hover {
-        border: 2px solid #FFF;
-        background: #FFF;
-    }
+        background-color: #FFF;
+        color: #000;
+    } 
+    
 }
 /* Header  End */
 
@@ -230,8 +226,8 @@ header {
 .register-btn {
     height: 62px;
     border: 2px solid #FFF;
-    background-color: transparent;
     color: #fff;
+    background-color: #161616;
     text-transform: uppercase;
     text-align: center;
     padding: 18px 100px;
@@ -241,6 +237,11 @@ header {
     font-weight: 400;
     line-height: normal;
     margin-top: 40px;
+}
+
+.register-btn:hover {
+    background-color: #FFF;
+    color: #000;
 }
 
 @media screen and (min-width: 1280px) {
@@ -281,6 +282,29 @@ header {
 
     .first-section-bg img {
         max-height: 100%;
+    }
+
+    .register-btn {
+        height: 62px;
+        border: 2px solid #FFF;
+        color: #fff;
+        background-color: #161616;
+        margin-top: 40px;
+        padding: 18px 100px;
+    }
+
+    .register-btn-div {
+        font-family: "SONGER SemiExpanded";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .register-btn:hover {
+        background-color: #FFF;
+        color: #000;
     }
 }
 
@@ -409,10 +433,6 @@ header {
         padding-bottom: 60px;
     }
 
-    .service-item:hover {
-        background: linear-gradient(360deg, #3E3E3E 0%, rgba(62, 62, 62, 0.00) 100%);
-    }
-
     .service-item-heading {
         order: 1;
         padding: 0;
@@ -493,6 +513,10 @@ header {
 
     .service-item:hover .service-item-row .service-item-img {
         display: flex  !important;
+    }
+
+    .service-item:hover {
+        background: linear-gradient(360deg, #3E3E3E 0%, rgba(62, 62, 62, 0.00) 100%);
     }
 }
 /* Service End */
