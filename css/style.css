@@ -489,7 +489,6 @@ header {
         height: 180px;
         position: absolute;
         left: 44%;
-        top: 41%;
     }
 
     .service-item:hover .service-item-row .service-item-img {
