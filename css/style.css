@@ -248,11 +248,11 @@ header {
     #first-section {
         padding-top: 0;
         position: relative;
-        z-index: -9999;
     }
 
     .first-section-img {
         margin-top: 0;
+        z-index: 9;
     }
 
     .register-btn {
@@ -274,7 +274,6 @@ header {
         position: absolute;
         right: 0;
         top: 0;
-        z-index: -99;
         bottom: 60px;
         max-width: 705px;
         opacity: 0.1;
@@ -302,7 +301,7 @@ header {
         text-align: center;
     }
 
-    .register-btn:hover {
+    .register-btn-div .register-btn:hover {
         background-color: #FFF;
         color: #000;
     }
@@ -500,6 +499,10 @@ header {
         padding-bottom: 120px;
     }
 
+    .menu_section_links>li {
+        color: #ffffff;
+    }
+
     .service-item-img {
         display: none;
     }
@@ -517,6 +520,10 @@ header {
 
     .service-item:hover {
         background: linear-gradient(360deg, #3E3E3E 0%, rgba(62, 62, 62, 0.00) 100%);
+    }
+
+    .menu_section_links li:hover .menu_section_links>li {
+        color: #A1A1A1 !important ;
     }
 }
 /* Service End */
@@ -1078,8 +1085,8 @@ header {
     }
 
     .footer-img img {
-        width: 1040px;
         height: 666px;
+        width: 1040px;
     }
 
     .hover-div {
@@ -1097,7 +1104,7 @@ header {
         top: 0;
         right: 0;
     }
-
+    
     .register {
         padding-top: 41px;
     }
