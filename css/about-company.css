@@ -411,14 +411,8 @@ h1 {
 }
 
 @media screen and (min-width: 1280px) {
-    .logo-images-ds {
-        align-items: center;
-        padding-left: 59px; 
-        padding-right: 59px;
-    }
-
-    .logo-images-ds img:not(:last-child) {
-        padding-right: 50px;
+    .logo-images {
+        width: 110px;
     }
 
     .autoservice-heading-div {
@@ -588,8 +582,8 @@ h1 {
     }
 
     .footer-img img {
-        width: 1040px;
         height: 666px;
+        width: 720px;
     }
 
     .hover-div {
