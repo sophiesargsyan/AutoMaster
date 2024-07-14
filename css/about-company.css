@@ -437,6 +437,13 @@ h1 {
 /* Autoservice Section End */
 
 /* Footer Start */
+.footer-img-responsive {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+
 .contact-heading-div {
     padding-top: 80px;
     padding-bottom: 31px;
@@ -593,7 +600,7 @@ h1 {
     .contact {
         position: relative;
     }
-
+    
     .footer-img {
         padding: 0;
         position: absolute;
